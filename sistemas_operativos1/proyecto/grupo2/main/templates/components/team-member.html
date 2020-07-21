@@ -1,0 +1,13 @@
+{% macro member(name, email, image, size="col-md-3") %}
+<div class="{{ size }} mb-4">
+    <div class="card">
+        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+            <img src="{{ image }}" class="img-fluid"/>
+        </div>
+        <div class="card-body">
+            <p class="font-weight-bold my-2">{{ name }}</p>
+            <p class="text-muted">{{ email }}</p>
+        </div>
+    </div>
+</div>
+{% endmacro %}

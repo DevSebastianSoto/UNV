@@ -1,0 +1,1 @@
+sass --watch --no-source-map main/scss/mdb/mdb-free.scss:main/static/css/mdb.min.css --style compressed

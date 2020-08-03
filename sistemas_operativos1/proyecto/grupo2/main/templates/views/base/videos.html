@@ -1,0 +1,11 @@
+{% import 'components/timeline.html' as tml %}
+<section id="video" class="py-sm-4 indigo lighten-3">
+    <div class="container white z-depth-1 mt-5 py-5 px-4 px-lg-0">
+        <section>
+            <h3 class="font-weight-bold text-center dark-grey-text pb-2">Vídeos</h3>
+            <hr class="w-header mt-4 mb-5">
+            <p class="lead text-center text-muted pt-2 mb-5">En esta sección, se muestran los vídeos de instalación y configuración</p>
+            {{ tml.timeline(videos) }}
+        </section>
+    </div>
+</section>
